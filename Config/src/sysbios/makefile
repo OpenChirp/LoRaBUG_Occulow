@@ -16,11 +16,11 @@ BIOS_INC  = -I"C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/pa
 
 TARGET_INC = -I"C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages/"
 
-INCS = $(BIOS_INC) $(TARGET_INC)  --include_path="C:/github/wiselab/LoRaBUG_DemoClassA/Config" --include_path="C:/github/wiselab/LoRaBUG_DemoClassA" --include_path="C:/github/wiselab/LoRaBUG_DemoClassA" --include_path="C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc26xxware_2_24_03_17272" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_5.2.9/include" --include_path="C:/github/wiselab/LoRaBUG_DemoClassA/Libs" --include_path="C:/github/wiselab/LoRaBUG_DemoClassA/LoRaMac-node/src/mac" --include_path="C:/github/wiselab/LoRaBUG_DemoClassA/LoRaMac-node/src/radio" --include_path="C:/github/wiselab/LoRaBUG_DemoClassA/LoRaMac-node/src/boards/LoRaBug" --include_path="C:/github/wiselab/LoRaBUG_DemoClassA/LoRaMac-node/src/system/crypto" 
+INCS = $(BIOS_INC) $(TARGET_INC)  --include_path="C:/github/wiselab/LoRaBUG_Occulow/Config" --include_path="C:/github/wiselab/LoRaBUG_Occulow" --include_path="C:/github/wiselab/LoRaBUG_Occulow" --include_path="C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc26xxware_2_24_03_17272" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.3.LTS/include" --include_path="C:/github/wiselab/LoRaBUG_Occulow/Libs" --include_path="C:/github/wiselab/LoRaBUG_Occulow/LoRaMac-node/src/mac" --include_path="C:/github/wiselab/LoRaBUG_Occulow/LoRaMac-node/src/radio" --include_path="C:/github/wiselab/LoRaBUG_Occulow/LoRaMac-node/src/boards/LoRaBug" --include_path="C:/github/wiselab/LoRaBUG_Occulow/LoRaMac-node/src/system/crypto" 
 
-CC = C:/ti/ccsv7/tools/compiler/ti-cgt-arm_5.2.9/bin/armcl -c $(CCOPTS) -I C:/ti/ccsv7/tools/compiler/ti-cgt-arm_5.2.9/include
-ASM = C:/ti/ccsv7/tools/compiler/ti-cgt-arm_5.2.9/bin/armcl -c $(CCOPTS) -I C:/ti/ccsv7/tools/compiler/ti-cgt-arm_5.2.9/include
-AR = C:/ti/ccsv7/tools/compiler/ti-cgt-arm_5.2.9/bin/armar rq
+CC = C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.3.LTS/bin/armcl -c $(CCOPTS) -I C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.3.LTS/include
+ASM = C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.3.LTS/bin/armcl -c $(CCOPTS) -I C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.3.LTS/include
+AR = C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.3.LTS/bin/armar rq
 
 DEL = C:/ti/xdctools_3_32_00_06_core/packages/../bin/rm -f
 CP = C:/ti/xdctools_3_32_00_06_core/packages/../bin/cp -f
