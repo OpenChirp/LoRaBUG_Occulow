@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message CountMessage {
+    required uint32 count_in = 1;
+    required uint32 count_out = 2;
+    required uint32 batteryVoltage = 3;
+    required uint32 batteryLevel = 4;
+}
